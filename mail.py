@@ -8,8 +8,8 @@ user_email = input("Enter your email: ")
 otp = random.randint(100000, 999999)
 
 # Sender details
-sender_email = "ritikchauhan2854@gmail.com"
-sender_password = "fulz ojmh beyr ewby"  # Gmail App Password
+sender_email = "enter your emial"
+sender_password = "pasword"  # Gmail App Password
 
 # Email message
 message = f"Subject: OTP Verification\n\nYour OTP is: {otp}"
