@@ -8,8 +8,8 @@ def bill():
     con = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="ritik1228", #enter your password
-    database="invoice " #enter your database name
+    password="", #enter your password
+    database=" " #enter your database name
     )
     cur = con.cursor()
     order_id=int(input("enter the order id: "))
@@ -38,4 +38,5 @@ def bill():
     cur.close()
     con.close()
     
+
 bill()
